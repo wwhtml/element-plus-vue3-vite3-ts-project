@@ -8,7 +8,13 @@ const router = createRouter({
     {
       path: "/",
       component: Container,
-      children: [{ path: "/", component: Home }],
+      children: [
+        { path: "/", component: Home },
+        {
+          path: "/chooseArea",
+          component: () => import("@/views/chooseArea/index.vue"),
+        },
+      ],
     },
   ],
 });
