@@ -4,7 +4,7 @@ export default {
 };
 </script>
 <script lang="ts" setup>
-import MChooseArea from "@/components/chooseArea/src/index.vue";
+// import MChooseArea from "@/components/chooseArea/src/index.vue";
 
 const changeArea = (val: any) => {
   console.log(val);
@@ -12,6 +12,7 @@ const changeArea = (val: any) => {
 </script>
 
 <template>
+  <m-choose-area @change="changeArea"></m-choose-area>
   <m-choose-area @change="changeArea"></m-choose-area>
 </template>
 
