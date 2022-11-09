@@ -13,7 +13,7 @@ const changeArea = (val: any) => {
 
 <template>
   <m-choose-area @change="changeArea"></m-choose-area>
-  <m-choose-area @change="changeArea"></m-choose-area>
+  <MChooseArea @change="changeArea"></MChooseArea>
 </template>
 
 <style lang="scss" scoped></style>
