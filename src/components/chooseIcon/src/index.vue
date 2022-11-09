@@ -1,6 +1,6 @@
 <script lang="ts">
 export default {
-  name: "chooseIcon-com",
+  name: "MChooseIcon",
 };
 </script>
 
