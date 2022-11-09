@@ -3,8 +3,6 @@ import { RouterView } from "vue-router";
 </script>
 
 <template>
-  <el-button type="primary">Element-Plus-Test</el-button>
-  <el-icon>
-    <Edit />
-  </el-icon>
+  <!-- 一级路由 -->
+  <RouterView></RouterView>
 </template>
