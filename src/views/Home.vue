@@ -7,7 +7,7 @@ export default {
 <script lang="ts" setup></script>
 
 <template>
-  <el-button type="primary">Test</el-button>
+  <el-button type="primary">首页</el-button>
 </template>
 
 <style scoped lang="scss"></style>

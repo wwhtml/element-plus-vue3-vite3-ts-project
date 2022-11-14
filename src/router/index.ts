@@ -9,7 +9,8 @@ const router = createRouter({
       path: "/",
       component: Container,
       children: [
-        { path: "/", component: Home },
+        { path: "/", redirect: "/home" },
+        { path: "/home", component: Home },
         {
           path: "/chooseIcon",
           component: () => import("../views/chooseIcon/index.vue"),
