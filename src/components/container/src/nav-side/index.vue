@@ -38,7 +38,7 @@ console.log(route.path);
         <el-icon><Expand /></el-icon>
         <span>省市区选择器</span>
       </el-menu-item>
-      <el-menu-item index="3">
+      <el-menu-item index="/trend">
         <el-icon><Expand /></el-icon>
         <span>趋势标记</span>
       </el-menu-item>

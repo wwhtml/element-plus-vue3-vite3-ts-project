@@ -24,8 +24,9 @@
 import type { App } from "vue";
 import chooseArea from "./chooseArea/src/index.vue";
 import chooseIcon from "./chooseIcon/src/index.vue";
+import trend from "./trend/src/index.vue";
 
-const components = [chooseArea, chooseIcon];
+const components = [chooseArea, chooseIcon, trend];
 // console.log(components);
 
 export default {
